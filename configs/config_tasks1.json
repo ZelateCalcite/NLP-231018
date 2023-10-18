@@ -1,0 +1,95 @@
+{
+  "tasks": [
+    "dummy_for_now"
+  ],
+  "doc_emotion_cause_extraction": {
+    "datasets": [
+      "doc"
+    ],
+    "instruction_files": [
+      "emotion_cause_tagging"
+    ]
+  },
+  "dia_emotion_cause_extraction": {
+    "datasets": [
+      "dia"
+    ],
+    "instruction_files": [
+      "emotion_cause_tagging"
+    ]
+  },
+  "mecpe_emotion_cause_extraction": {
+    "datasets": [
+      "mecpe"
+    ],
+    "instruction_files": [
+      "emotion_cause_tagging"
+    ]
+  },
+  "emotion_cause_span_begin_generation": {
+    "datasets": [
+      "gne"
+    ],
+    "instruction_files": [
+      "emotion_cause_span_begin"
+    ]
+  },
+  "doc_emotion_specific_tagging": {
+    "datasets": [
+      "doc_emotion"
+    ],
+    "instruction_files": [
+      "emotion_utt_specific_tagging_v2"
+    ]
+  },
+  "gne_emotion_specific_tagging": {
+    "datasets": [
+      "gne_emotion"
+    ],
+    "instruction_files": [
+      "emotion_gne_specific_tagging"
+    ]
+  },
+  "dia_emotion_specific_tagging": {
+    "datasets": [
+      "dia_emotion"
+    ],
+    "instruction_files": [
+      "emotion_utt_specific_tagging_v2"
+    ]
+  },
+  "mecpe_emotion_specific_tagging": {
+    "datasets": [
+      "mecpe_emotion"
+    ],
+    "instruction_files": [
+      "emotion_utt_specific_tagging_v2"
+    ]
+  },
+  "dataset_configs": {
+    "dia": {
+      "split": "train"
+    },
+    "doc": {
+      "split": "train"
+    },
+    "mecpe": {
+      "split": "train"
+    },
+    "gne": {
+      "split": "train"
+    },
+    "dia_emotion": {
+      "split": "train"
+    },
+    "mecpe_emotion": {
+      "split": "train"
+    },
+    "doc_emotion": {
+      "split": "train"
+    },
+    "gne_emotion": {
+      "split": "train"
+    }
+  }
+}
